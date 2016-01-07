@@ -16,6 +16,8 @@ JavaScript function that mimics date() from PHP
     + *(str)* `str` - string for [Date.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse), which has lower priority than values above (i.e. first `str` is parsed, then integer values)
 
 ## Examples
+**See it in action on YouTube**! https://www.youtube.com/watch?v=6el-4omj7Ow
+
 Examples assume that current date is 07-01-2015, 04:20:15.
 
 `var myDate = formatDate('H:i:s')` - **`04:20:15`**
