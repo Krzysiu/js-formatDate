@@ -19,7 +19,9 @@ JavaScript function that mimics date() from PHP
 Examples assume that current date is 07-01-2015, 04:20:15.
 
 `var myDate = formatDate('H:i:s')` - **`04:20:15`**
+
 `var myDate = formatDate('jS F Y, g A')` - **`7th January 2015, 4 AM`**
+
 `var myDate = formatDate('H:i:s', {th: 0, ts: 7})` - **`00:20:07`** (note that minutes aren't changed)
 
 `var year = 2012; var msg = year.toString() + 'was a'  + (formatDate('L', {dy: year}) == 1 ? 'leap year' : 'normal year') + '!'` - **`2012 was a leap year!`**
